@@ -1,0 +1,1 @@
+positive_sum = lambda arr: sum(x for x in arr if x > 0)

@@ -1,0 +1,1 @@
+from functools import reduce; persistence = lambda num, count=0: count if num < 10 else persistence(reduce(lambda x, y: x * y, [int(d) for d in str(num)]), count+1)
